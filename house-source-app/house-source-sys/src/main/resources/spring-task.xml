@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans   
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/task   
+    http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+	<!-- <task:scheduler id="taskPool" pool-size="3" />
+	<task:scheduled-tasks scheduler="taskPool">
+	    *(秒0-59) *(分钟0-59) *(小时0-23) *(日期1-31) *(月份1-12或是JAN-DEC) *(星期1-7或是SUN-SAT)
+	    <task:scheduled ref="businessTaskSupport" method="sendEmailByBusinessPaymentDate" cron="0 0 12 * * *"/>
+	    <task:scheduled ref="businessTaskSupport" method="sendEmailByBusinessIsRecovery" cron="0 15 12 * * *"/>
+	    <task:scheduled ref="businessTaskSupport" method="sendEmailByBusinessMediaBillingDate" cron="0 30 12 * * *"/>
+	</task:scheduled-tasks> -->
+	
+</beans>
